@@ -16,4 +16,6 @@ LABEL vendor=Marc\ Cortinas\
       cat.cortinasval.docker.app="oracle-jdk" \
       cat.cortinasval.docker.apprelease="8u45" \
       cat.cortinasval.docker.version="0.0.1-test" \
-      cat.cortinasval.docker.release-date="2015-06-14"
+      cat.cortinasval.docker.release-date="2015-06-14"\
+      description="CentOS 7 official image \
+      adding oracle jdk 8u45-b14"

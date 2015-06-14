@@ -25,4 +25,6 @@ LABEL vendor=Marc\ Cortinas\
       cat.cortinasval.docker.app="elasticsearch" \
       cat.cortinasval.docker.apprelease="1.5.2" \
       cat.cortinasval.docker.version="0.0.1-test" \
-      cat.cortinasval.docker.release-date="2015-06-14"
+      cat.cortinasval.docker.release-date="2015-06-14"\
+      description="CentOS 7 official image with oracle jdk 8u45-b14\
+      adding elasticsearch version 1.5.2"
