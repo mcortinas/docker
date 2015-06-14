@@ -1,4 +1,4 @@
-FROM mcortinas/centos7-jdk-8u45
+FROM mcortinas/docker:centos7-jdk-8u45-latest
 MAINTAINER Marc Cortinas <marc.cortinas@gmail.com> (@mcortinas)
 
 RUN wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.5.2.noarch.rpm -O /root/elasticsearch-1.5.2.noarch.rpm
