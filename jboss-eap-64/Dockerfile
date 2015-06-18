@@ -3,6 +3,7 @@ MAINTAINER Marc Cortinas <marc.cortinas@gmail.com> (@mcortinas)
 
 #RUN wget https://mega.co.nz/#!UwgwzLja!dHu_a0L16zaoO7DPSZ_NnPJKh7pdwcy-pNuNxwfOTaM -O /opt/jboss-eap-6.4.zip
 RUN wget http://pepitolospalotes.cortinasval.cat/jboss-eap-6.4.0.zip -O /opt/jboss-eap-6.4.zip
+RUN yum -y install unzip
 RUN cd /opt
 RUN unzip jboss-eap-6.4.zip
 RUN rm -f /opt/jboss-eap-6.4.zip
