@@ -1,0 +1,11 @@
+es01:
+  image: elasticsearch:1.7.1
+  volumes:
+    - ES/01/config:/usr/share/elasticsearch/config
+    - ES/01/data:/usr/share/elasticsearch/data
+    - ES/01/plugins:/usr/share/elasticsearch/plugins
+  expose:
+    - "9200"
+    - "9300"
+  environment:
+    - DEBUG=true
