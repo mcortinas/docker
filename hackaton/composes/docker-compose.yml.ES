@@ -29,23 +29,3 @@ elasticsearch02:
   environment:
     - DEBUG=true
   command: "elasticsearch"
-jetty01:
-  image: jetty:9.3.2
-  volumes:
-    - ./JETTY/01/webapps:/var/lib/jetty/webapps
-  ports:
-    - "8080"
-  expose:
-    - "8080"
-  environment:
-    - DEBUG=true
-kibana:
-  image: kibana:4.1.2
-  ports:
-    - "5601"
-  expose:
-    - "5601"
-  environment:
-    - DEBUG=true
-  links:
-    - elasticsearch:elasticsearch

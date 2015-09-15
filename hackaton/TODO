@@ -1,0 +1,6 @@
+(/) docker-compose jetty + sample.war
+(/) docker-compose elasticsearch
+(/) docker-compose kibana
+(/) connect kibana-elasticsearch
+(x) connect jetty-elasticsearch
+

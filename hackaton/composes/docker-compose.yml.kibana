@@ -1,0 +1,10 @@
+kibana:
+  image: kibana:4.1.2
+  ports:
+    - "5601"
+  expose:
+    - "5601"
+  environment:
+    - DEBUG=true
+  links:
+    - elasticsearch:elasticsearch

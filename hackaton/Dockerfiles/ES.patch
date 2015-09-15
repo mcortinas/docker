@@ -1,0 +1,6 @@
+10328  docker run -ti elasticsearch:1.7.1 /bin/bash
+apt-get install vim
+commented lines in /docker-entrypoint.sh due to launch ES as a root user
+10331  docker commit furious_khorana
+10333  docker tag 948f648666b064590e526eba262939136717075869bc3dc824f7080041c187d8 mcortinas/elasticsearch
+10334  docker images
